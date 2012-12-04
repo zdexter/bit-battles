@@ -8,10 +8,10 @@ spacebar to fire, wasd to move
 
 server installation
 --------
-virtualenv --distribute venv && source venv/bin/activate
-pip install -r requirements.txt
+    virtualenv --distribute venv && source venv/bin/activate
+    pip install -r requirements.txt
 
 running the server
 --------
-chmod +x server.py (first time only)
-./server.py
+    chmod +x server.py # first time only
+    ./server.py
