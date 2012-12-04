@@ -1,0 +1,17 @@
+body{
+  width:100%;
+  min-height:500px
+}
+#wrapper div{
+  margin:0px auto;
+  width:90%;
+  padding:5px;
+}
+#name{
+  background-color:#777;
+  color:white;
+  height:5%;
+}
+#game{
+  background: black;
+}

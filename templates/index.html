@@ -1,0 +1,26 @@
+<!doctype html>
+<head>
+  <title>Bit Battle!</title>
+  <link href="/static/css/layout.css" type="text/css" rel="stylesheet">
+  <link href="/static/css/messages.css" type="text/css" rel="stylesheet">
+  <link href="/static/css/game.css" type="text/css" rel="stylesheet">
+  <script src="/static/lib/jquery-1.8.3.min.js"></script>
+  <script src="/static/lib/underscore-min.js"></script>
+  <script src="/static/lib/backbone-min.js"></script>
+  <script src="/static/js/models.js"></script>
+</head>
+<body>
+  <div id="wrapper">
+    <div id="name">
+      Welcome, {{ name }}
+    </div>
+    <div id="game">&nbsp;
+      <p id="join" class="popup">
+        <input id="player_name" type="text" placeholder="Your name" autofocus>
+        <button id="add_player">Play!</button>
+      </p>
+    </div>
+  </div>
+  <script src="/static/js/game.js"></script>
+</body>
+</html>

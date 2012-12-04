@@ -1,0 +1,11 @@
+.player_zero{
+  width:25px;
+  height:25px;
+  background-color:white;
+}
+
+.player_one{
+  width:25px;
+  height:25px;
+  background-color:orange;
+}
